@@ -36,24 +36,28 @@ export const FAQ = () => {
 
   const faqs = [
     {
+      question: "Are you currently hiring caregivers in Northern Kentucky or Cincinnati?",
+      answer: "Yes! We're actively hiring compassionate and dependable caregivers throughout Northern Kentucky and Greater Cincinnati. If you're interested, we can start a brief screening now. If you meet the requirements, we'll offer to book your interview with our hiring manager right away."
+    },
+    {
+      question: "What are the current pay rates?",
+      answer: "Our caregivers typically earn between $13 and $16 per hour depending on experience, certifications (like CNA/STNA), and the types of care provided. Weekend and last-minute shifts may offer additional incentives."
+    },
+    {
+      question: "Where are you located?",
+      answer: "Our main office is in Northern Kentucky, and we serve clients across NKY and the Greater Cincinnati area. In-person interviews typically take place at our Hyde Park office in Cincinnati."
+    },
+    {
+      question: "Do I need reliable transportation?",
+      answer: "Yes. Reliable transportation is required to travel to client homes. Our clients are located throughout Boone, Kenton, and Campbell counties as well as the east and west sides of Cincinnati."
+    },
+    {
+      question: "Will I need to travel far?",
+      answer: "We try to match you with clients near your preferred area. However, most caregivers drive up to 30 minutes depending on the location and client needs."
+    },
+    {
       question: "How does the AI voice support work?",
       answer: "Simply click on the chat widget and start speaking. Our AI will listen, understand your question, and respond both in text and voice. You can have natural conversations just like talking to a human support agent."
-    },
-    {
-      question: "Is my conversation data secure?",
-      answer: "Absolutely! All conversations are encrypted and stored securely. We follow industry-standard security practices and never share your personal information with third parties."
-    },
-    {
-      question: "What languages does the AI support?",
-      answer: "Our AI assistant supports multiple languages including English, Spanish, French, German, and many more. It automatically detects your language and responds accordingly."
-    },
-    {
-      question: "Can the AI handle complex technical issues?",
-      answer: "Yes! Our AI is trained on extensive technical documentation and can handle a wide range of issues. For complex problems that require human expertise, it will seamlessly connect you to our human support team."
-    },
-    {
-      question: "Is there a limit to how many questions I can ask?",
-      answer: "No limits! Ask as many questions as you need. Our AI is available 24/7 to help you resolve any issues or answer questions about our services."
     }
   ];
 
