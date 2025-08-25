@@ -20,24 +20,6 @@ export const CustomerSupport = () => {
               <p className="text-xl mb-8 opacity-90">
                 Experience next-level customer support with our intelligent AI that understands both text and voice. Get instant answers, speak naturally, and resolve issues faster than ever.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button 
-                  variant="secondary" 
-                  size="lg"
-                  className="chat-pulse text-lg px-8 py-6"
-                >
-                  <MessageSquare className="w-6 h-6 mr-3" />
-                  Start AI Chat
-                </Button>
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary text-lg px-8 py-6"
-                >
-                  <Mic className="w-6 h-6 mr-3" />
-                  Try Voice Support
-                </Button>
-              </div>
             </div>
             <div className="hidden lg:block">
               <img 
