@@ -65,10 +65,7 @@ export const CustomerSupport = () => {
             <div className="bg-gradient-subtle rounded-2xl p-8 shadow-feature">
               <div 
                 dangerouslySetInnerHTML={{
-                  __html: `
-                    <elevenlabs-convai agent-id="agent_01jz7dkt73f83b4sby1bkrbf4t"></elevenlabs-convai>
-                    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
-                  `
+                  __html: '<elevenlabs-convai agent-id="agent_01jz7dkt73f83b4sby1bkrbf4t"></elevenlabs-convai>'
                 }}
               />
               
